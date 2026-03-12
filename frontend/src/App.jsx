@@ -1,7 +1,7 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { SimulationProvider } from "./hooks/SimulationContext.jsx";
-import { AppShell } from "./components/Layout/AppShell.jsx";
+import { AppShell } from "./components/layout/AppShell.jsx";
 
 const HomePage = lazy(() => import("./pages/HomePage.jsx").then((module) => ({ default: module.HomePage })));
 const SimulationPage = lazy(() =>
