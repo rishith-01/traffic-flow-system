@@ -1,4 +1,4 @@
-import { IntersectionPanel } from "../Intersection/IntersectionPanel.jsx";
+import { IntersectionPanel } from "../intersection/IntersectionPanel.jsx";
 
 export function MultiIntersectionGrid({
   intersections,
