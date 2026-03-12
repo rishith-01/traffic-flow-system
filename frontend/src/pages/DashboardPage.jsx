@@ -6,7 +6,7 @@ import {
   DelayTrendChart,
   QueueDistributionChart,
   ThroughputChart,
-} from "../components/Charts/TrafficCharts.jsx";
+} from "../components/charts/TrafficCharts.jsx";
 import { useSimulationContext } from "../hooks/SimulationContext.jsx";
 import { formatMetric } from "../utils/formatters.js";
 
