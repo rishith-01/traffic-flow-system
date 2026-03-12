@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: smart-traffic-signal-simulator-api
+    runtime: node
+    rootDir: backend
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run start
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: CLIENT_ORIGIN
+        sync: false
+      - key: TICK_INTERVAL_MS
+        value: 900
