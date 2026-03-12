@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSimulationContext } from "../hooks/SimulationContext.jsx";
 import { AlgorithmSelector } from "../components/AlgorithmSelector/AlgorithmSelector.jsx";
-import { IntersectionPanel } from "../components/Intersection/IntersectionPanel.jsx";
+import { IntersectionPanel } from "../components/intersection/IntersectionPanel.jsx";
 import { ComparisonPanel } from "../components/Simulation/ComparisonPanel.jsx";
 import { SimulationControls } from "../components/Simulation/SimulationControls.jsx";
 
